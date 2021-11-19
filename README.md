@@ -3,7 +3,7 @@ This code generates the X,Y,Z tool position which are calculated from the DDA ou
 
 Input : DDA debug data in the following order
 
-                1. Total length of the move (not just for one axis but the total distance in hypercuboid space, which is not equal to the algebraic sum of the moves)
+                1. Total length of the move (not just for one axis but the total distance in hypercuboid space, which is NOT equal to the algebraic sum of the moves)
                 2. Starting x co-ordinate for a move 
                 3. Starting y co-ordinate for a move
                 4. Starting z co-ordinate for a move 
