@@ -20,3 +20,5 @@ Input : DDA debug data in the following order
                 15. Direction of the move i.e. forward direction (1) and backward direction (0)
            
 Output : The XYZ positions for every move
+
+Run the graphing.py to generate the plot after running the C++ file.
