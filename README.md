@@ -18,4 +18,5 @@ Input : DDA debug data in the following order
                 13. Top velocity 
                 14. End velocity
                 15. Direction of the move i.e. forward direction (1) and backward direction (0)
-
+           
+Output : The XYZ positions for every move
