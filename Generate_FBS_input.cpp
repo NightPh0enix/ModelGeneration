@@ -138,7 +138,7 @@ std::vector<double> make_distanceVector()
             std::cout<<"A "<<"X = " <<x_startDist+(x_moveDistance/totalLength)*dist<<" Y = " <<y_startDist+(y_moveDistance/totalLength)*dist<<" Z = "<<z_startDist+(z_moveDistance/totalLength)*dist<<"\n";
         }
 
-        if (k>=N1+1 && k<=N2+N2)
+        if (k>=N1+1 && k<=N1+N2)
         {
             tau = k*time_interval;
             double dist = s_1e + F_P * (tau-N1*time_interval);
@@ -177,6 +177,12 @@ void calculateTimeIntervals()
     double fsSqByTwoA = startVelocity * startVelocity*oneby2a;
 
     T2 = onebyf * (totalLength - (oneby2a-oneby2d)*Fsquare - (feSqByTwoD-fsSqByTwoA));
+    
+    if (T2<0)
+    {
+        T2 = 0;
+    }
+    
     T3 = (f_e - F)/deceleration;
 
     // std::cout<<"f_s " <<f_s <<"\n";
