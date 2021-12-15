@@ -1,5 +1,5 @@
 # ModelGeneration
-This code generates the X,Y,Z tool position which are calculated from the DDA output. Generate_FBS_input.cpp should be the main file of interest. Also check out the RPi_Subsystem repo, that one also outputs the E values.  
+This code generates the X,Y,Z tool position which are calculated from the DDA output. `Generate_FBS_input.cpp` should be the main file of interest. Also check out the `RPi_Subsystem` repo, that one also outputs the E values.  
 
 Input : DDA debug data in the following order
 
