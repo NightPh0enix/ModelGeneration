@@ -18,6 +18,7 @@ Input : DDA debug data in a txt file. Data inside the text file should be in the
                 13. Top velocity 
                 14. End velocity
                 15. Direction of the move i.e. forward direction (1) and backward direction (0)
+                16. Extrusion
            
 Output : The XYZ positions for every move
 
